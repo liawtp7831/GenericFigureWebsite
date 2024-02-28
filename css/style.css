@@ -1,0 +1,61 @@
+.container-md{
+    padding: 5px;
+}
+.d-flex{
+    align-items: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
+}
+.custom-nav-background {
+    background-color: #c58a8a93; /* Set your desired background color */
+}
+.nav-pills .nav-link {
+    color: #ffffff; /* Set the text color */
+}
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link:focus {
+    color: #ffffff; /* Set the hover color */
+    background-color: #dfc091; /* Set the background color on hover */
+}
+/* Custom styles for the dropdown menu */
+.nav-pills .dropdown-menu {
+    background-color: #c58a8a93; /* Set the background color for the dropdown */
+}
+
+.nav-pills .dropdown-item {
+    color: #ffffff; /* Set the text color for dropdown items */
+}
+
+.nav-pills .dropdown-item:hover,
+.nav-pills .dropdown-item:focus {
+    color: #ffffff; /* Set the hover color for dropdown items */
+    background-color: #dfc091; /* Set the background color on hover for dropdown items */
+}
+.slider-container {
+    width: 600px; /* Example width */
+    position: relative;    
+    overflow: hidden; 
+  }
+  
+  .slider-items {
+    display: flex;
+    transition: transform 0.5s ease; /* For smooth transitions */
+  }
+  
+  .slide {
+    width: 600px; /* Match the container width */
+    flex-shrink: 0; /* Prevent items from shrinking */
+  }
+  
+  .prev-arrow, .next-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* ... add button styling ... */
+   }
+  
